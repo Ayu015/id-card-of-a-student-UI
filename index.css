@@ -1,0 +1,59 @@
+body { 
+    min-height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: white; 
+    font-family: Arial, sans-serif; 
+}
+
+#Idcard{
+    border: 3px solid black;
+    width: 396px;
+    height: 658px;
+    background-image: url("bacgroundidcard.jpeg");
+    background-size:100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.studentimg{
+    position: relative;
+    top: 138px;
+    /* right: 200px; */
+    left: 238px;
+    width: 125px;
+    height: 145px;
+    border: 1px solid #333;
+    object-fit: cover;
+}
+
+#data{
+    position: relative;
+    top: 110px;
+    left: 100px;
+    font-size: 17px;
+
+}
+
+#name{
+    position: relative;
+    top: 120px;
+    /* left: 20px; */
+    right: 3px;
+    text-align: center;
+    color: #800000;
+    font-size: 18px;
+    margin-bottom: 8px;
+
+}
+
+#firstline{
+    display: grid;
+    grid-template-columns: 100px 55px 155px auto; align-items: center;
+    font-size: 17px;
+    white-space: nowrap;
+}
+
+
+
